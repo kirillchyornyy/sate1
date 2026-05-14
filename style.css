@@ -59,6 +59,8 @@ article {
     width: 400px;
     margin:30px ;
     text-align: center;
+    display:flex;
+    justify-content: center;
 }
 
 .article-but {
@@ -73,7 +75,7 @@ article {
 footer {
     background-color: white;
     padding:0px ;
-    display: flex
+    display: flex;
 }
 
 footer a {
