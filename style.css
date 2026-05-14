@@ -7,6 +7,7 @@ header {
     justify-content: space-between;
     padding:15px ;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .button {
@@ -48,9 +49,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     display: flex;
-justify-content: center;
+    max-width: 1100px;
 }
 
 article {
@@ -59,8 +60,7 @@ article {
     width: 400px;
     margin:30px ;
     text-align: center;
-    display:flex;
-    justify-content: center;
+   
 }
 
 .article-but {
@@ -70,12 +70,13 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
     background-color: white;
     padding:0px ;
-    display: flex;
+    display: flex
 }
 
 footer a {
@@ -86,6 +87,3 @@ footer a {
 footer p {
     font-size: 24px;
 }
-main{display:flex;
-    justify-content: center;
-    }
